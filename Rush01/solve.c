@@ -10,11 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-int	isSafe(int grid[4][4], int row, int col, int num)
+int	is_safe(int grid[4][4], int row, int col, int num)
 {
-	int x = 0;
-	int y = 0;
+	int	x;
+	int	y;
 
+	x = 0;
+	y = 0;
 	while (x < 4)
 	{
 		if (grid[row][x] == num)
@@ -22,18 +24,17 @@ int	isSafe(int grid[4][4], int row, int col, int num)
 		x++;
 	}
 	while (y < 4)
-        {
-                if (grid[y][col] == num)
-                        return (0);
-                y++;
-        }
+	{
+		if (grid[y][col] == num)
+			return (0);
+		y++;
+	}
 	return (1);
 }
 
-
-int	Solve(int grid[4][4], int row, int col)
+int	solve_sudoku(int grid[4][4], int row, int col)
 {
-	int num;
+	int	num;
 
 	if (row == 4)
 		return (1);
@@ -43,14 +44,14 @@ int	Solve(int grid[4][4], int row, int col)
 		col = 0;
 	}
 	if (grid[row][col] > 0)
-		return Solve(grid, row, col + 1);
+		return (solve_sudoku(grid, row, col + 1));
 	num = 1;
-	while( num <= 4)
+	while (num <= 4)
 	{
-		if (isSafe(grid, row, col, num))
+		if (is_safe(grid, row, col, num))
 		{
 			grid[row][col] = num;
-			if (Solve(grid, row, col + 1))
+			if (solve_sudoku(grid, row, col + 1))
 				return (1);
 		}
 		num++;
