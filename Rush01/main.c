@@ -12,6 +12,8 @@
 
 #include <unistd.h>
 
+void	solve_rush(int num_views[16]);
+
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
@@ -75,6 +77,6 @@ int	main(int argc, char **argv)
 		ft_putstr("Error of input\n");
 		return (0);
 	}
-	ft_putstr("do the function \n input correct \n");
+	solve_rush(num_views);
 	return (0);
 }

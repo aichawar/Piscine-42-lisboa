@@ -25,7 +25,9 @@ void	print(int grid[4][4])
 		j = 0;
 		while (j < 4)
 		{
-			ft_putchar(grid[i][j]);
+			ft_putchar(grid[i][j] + '0');
+			if (j < 3)
+				ft_putchar(' ');
 			j++;
 		}
 		i++;
