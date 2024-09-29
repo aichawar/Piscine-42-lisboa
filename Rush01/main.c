@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include <unistd.h>
+#include <stdlib.h>
 
 void	solve_rush(int num_views[16]);
 
@@ -70,7 +71,13 @@ int	check_input(char *argv, int num_views[16])
 
 int	main(int argc, char **argv)
 {
-	int		num_views[16];
+	int		*num_views;
+
+	if (!(num_views = (int*)malloc(36 * sizeof(int))))
+	{
+		ft_putstr("error memory allocation");
+		return (0);
+	}
 
 	if (argc != 2 || !check_input(argv[1], num_views))
 	{
@@ -78,5 +85,6 @@ int	main(int argc, char **argv)
 		return (0);
 	}
 	solve_rush(num_views);
+	free(num_views);
 	return (0);
 }

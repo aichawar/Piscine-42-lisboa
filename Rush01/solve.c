@@ -11,13 +11,14 @@
 /* ************************************************************************** */
 
 #include <unistd.h>
+#include <stdlib.h>
 
-int		check_rows(int grid[4][4], int num_views[16], int row);
-int		check_cols(int grid[4][4], int num_views[16], int col);
-void	print(int grid[4][4]);
+int		check_rows(int **grid, int num_views[16], int row);
+int		check_cols(int **grid, int num_views[16], int col);
+void	print(int **grid);
 void	ft_putstr(char *str);
 
-int	is_safe(int grid[4][4], int row, int col)
+int	is_safe(int **grid, int row, int col)
 {
 	int	x;
 	int	y;
@@ -39,7 +40,7 @@ int	is_safe(int grid[4][4], int row, int col)
 	return (1);
 }
 
-int	check_clues(int grid[4][4], int num_views[16])
+int	check_clues(int **grid, int num_views[16])
 {
 	int	i;
 
@@ -53,7 +54,7 @@ int	check_clues(int grid[4][4], int num_views[16])
 	return (1);
 }
 
-int	solve_sudoku(int grid[4][4], int num_views[16], int row, int col)
+int	solve_sudoku(int **grid, int num_views[16], int row, int col)
 {
 	int	num;
 
@@ -78,10 +79,18 @@ int	solve_sudoku(int grid[4][4], int num_views[16], int row, int col)
 
 void	solve_rush(int num_views[16])
 {
-	int	grid[4][4];
+	int	**grid;
 	int	row;
 	int	col;
+	int	i;
 
+	grid = (int**)malloc(4 * sizeof(int *));
+	i = 0;
+	while(i < 4)
+	{
+		grid[i] = malloc(4 * sizeof(int));
+		i++;
+	}
 	row = 0;
 	while (row < 4)
 	{
@@ -97,4 +106,11 @@ void	solve_rush(int num_views[16])
 		print(grid);
 	else
 		ft_putstr("Not a solvable grid");
+	i = 0;
+	while(i < 4)
+	{
+		free(grid[i]);
+		i++;
+	}
+	free(grid);
 }

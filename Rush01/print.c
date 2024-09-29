@@ -14,7 +14,7 @@
 
 void	ft_putchar(char c);
 
-void	print(int grid[4][4])
+void	print(int **grid)
 {
 	int	i;
 	int	j;

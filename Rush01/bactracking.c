@@ -31,7 +31,7 @@ int	count_visible_boxes(int *line)
 	return (count);
 }
 
-int	check_rows(int grid[4][4], int num_views[16], int row)
+int	check_rows(int **grid, int num_views[16], int row)
 {
 	int	left_nums;
 	int	right_nums;
@@ -59,7 +59,7 @@ int	check_rows(int grid[4][4], int num_views[16], int row)
 	return (1);
 }
 
-int	check_cols(int grid[4][4], int num_views[16], int col)
+int	check_cols(int **grid, int num_views[16], int col)
 {
 	int	up_nums;
 	int	down_nums;
