@@ -31,35 +31,27 @@ The **42 Piscine** is a month-long programming bootcamp that tests participants'
 
 Here is a breakdown of the exercises I completed during the Piscine, categorized by modules. Each exercise includes a brief description and the grade I received:
 
----
-
-Voici une version mise à jour du tableau, avec les modules et exercices principaux, ainsi que des liens vers les dossiers Git correspondants et les notes :
-
----
-
-### Project Overview
-
 | Module   | Description                               | Grade | Repository Link                                      |
 |----------|-------------------------------------------|-------|-----------------------------------------------------|
-| Shell 00 | Basic shell commands and scripting        | 🟢 100% | [Shell 00](https://github.com/aichawar/Piscine-42-lisboa/tree/main/shell00) |
-| Shell 01 | Advanced shell scripting                  | 🟢 80%  | [Shell 01](https://github.com/aichawar/Piscine-42-lisboa/tree/main/shell01) |
-| C 00     | Introduction to C programming             | 🟢 100% |  |
-| C 01     | Arrays, pointers, and memory management   | 🟢 90%  |  |
-| C 02     | String manipulation and functions         | 🟢 85%  |  |
-| C 03     | Advanced functions and algorithms         | 🟢 95%  | |
-| C 04     | Recursion and sorting algorithms          | 🟢 92%  ||
-| C 05     |      |    |  |
-| C 06     |  |   | |
-| C 07     |     |   |  |
-| C 08     |     |   |  |
-| C 09     |     |   |  |
-| C 10     |     |   |  |
-| C 11     |     |   |  |
-| C 12     |     |   |  |
-| C 13     |     |   |  |
-| RUSH00   | First group project                       | 0% | [RUSH00](https://github.com/aichawar/Piscine-42-lisboa/tree/main/Rush01)|
-| RUSH01   | Advanced group project                    |   |  |
-| RUSH02   | Final group challenge                     |   | |
+| ##Shell 00 | Basic shell commands and scripting        | 🟢 100% | [Shell 00](https://github.com/aichawar/Piscine-42-lisboa/tree/main/shell00) |
+| ##Shell 01 | Advanced shell scripting                  | 🟢 80%  | [Shell 01](https://github.com/aichawar/Piscine-42-lisboa/tree/main/shell01) |
+| ##C 00     | Introduction to C programming             | 🟢 100% |  |
+| ##C 01     | Arrays, pointers, and memory management   | 🟢 90%  |  |
+| ##C 02     | String manipulation and functions         | 🟢 85%  |  |
+| ##C 03     | Advanced functions and algorithms         | 🟢 95%  | |
+| ##C 04     | Recursion and sorting algorithms          | 🟢 92%  ||
+| ##C 05     |      |    |  |
+| ##C 06     |  |   | |
+| ##C 07     |     |   |  |
+| ##C 08     |     |   |  |
+| ##C 09     |     |   |  |
+| ##C 10     |     |   |  |
+| ##C 11     |     |   |  |
+| ##C 12     |     |   |  |
+| ##C 13     |     |   |  |
+| ##RUSH00   | First group project                       | 0% | [RUSH00](https://github.com/aichawar/Piscine-42-lisboa/tree/main/Rush01)|
+| ##RUSH01   | Advanced group project                    |   |  |
+| ##RUSH02   | Final group challenge                     |   | |
 
 ---
 
