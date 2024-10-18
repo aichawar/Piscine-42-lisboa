@@ -33,7 +33,7 @@ Here is a breakdown of the exercises I completed during the Piscine, categorized
 
 | Module   | Description                               | Grade | Repository Link                                      |
 |----------|-------------------------------------------|-------|-----------------------------------------------------|
-| ##Shell 00 | Basic shell commands and scripting        | 🟢 100% | [Shell 00](https://github.com/aichawar/Piscine-42-lisboa/tree/main/shell00) |
+| ## Shell 00 | Basic shell commands and scripting        | 🟢 100% | [Shell 00](https://github.com/aichawar/Piscine-42-lisboa/tree/main/shell00) |
 | ##Shell 01 | Advanced shell scripting                  | 🟢 80%  | [Shell 01](https://github.com/aichawar/Piscine-42-lisboa/tree/main/shell01) |
 | ##C 00     | Introduction to C programming             | 🟢 100% |  |
 | ##C 01     | Arrays, pointers, and memory management   | 🟢 90%  |  |
