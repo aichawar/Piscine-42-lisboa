@@ -7,16 +7,26 @@ Welcome to my 42 Piscine repository! This repository showcases the exercises I c
 ### Table of Contents
 - [About the 42 Piscine](#about-the-42-piscine)
 - [Project Overview](#project-overview)
-  - [Shell 00](#shell-00)
-  - [Shell 01](#shell-01)
-  - [C 00](#c-00)
-  - [C 01](#c-01)
-  - [C 02](#c-02)
-  - [C 03](#c-03)
-  - [C 04](#c-04)
-  - [C 05](#c-05)
-  - [C 06](#c-06)
-  - [C 07](#c-07)
+  - Shell 00
+  - Shell 01
+  - C 00
+  - C 01
+  - C 02
+  - C 03
+  - C 04
+  - C 05
+  - C 06
+  - C 07
+  - C 08
+  - C 09
+  - C 10
+  - C 11
+  - C 12
+  - C 13
+  - Rush 00
+  - Rush 01
+  - Rush 02
+  - BSQ
 - [Contact](#contact)
 
 ---
