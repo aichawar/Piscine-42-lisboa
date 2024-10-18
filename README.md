@@ -10,18 +10,7 @@ Welcome to my 42 Piscine repository! This repository showcases the exercises I c
   - Shell 00
   - Shell 01
   - C 00
-  - C 01
-  - C 02
-  - C 03
-  - C 04
-  - C 05
-  - C 06
-  - C 07
-  - C 08
-  - C 09
-  - C 10
-  - C 11
-  - C 12
+  - ...
   - C 13
   - Rush 00
   - Rush 01
