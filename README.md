@@ -41,8 +41,8 @@ Voici une version mise à jour du tableau, avec les modules et exercices princip
 
 | Module   | Description                               | Grade | Repository Link                                      |
 |----------|-------------------------------------------|-------|-----------------------------------------------------|
-| Shell 00 | Basic shell commands and scripting        | 🟢 100% | [Shell 00](https://github.com/your-profile/repo-path/shell00) |
-| Shell 01 | Advanced shell scripting                  | 🟢 80%  | [Shell 01](https://github.com/your-profile/repo-path/shell01) |
+| Shell 00 | Basic shell commands and scripting        | 🟢 100% | [Shell 00](https://github.com/aichawar/Piscine-42-lisboa/tree/main/shell00) |
+| Shell 01 | Advanced shell scripting                  | 🟢 80%  | [Shell 01](https://github.com/aichawar/Piscine-42-lisboa/tree/main/shell01) |
 | C 00     | Introduction to C programming             | 🟢 100% | [C 00](https://github.com/your-profile/repo-path/c00) |
 | C 01     | Arrays, pointers, and memory management   | 🟢 90%  | [C 01](https://github.com/your-profile/repo-path/c01) |
 | C 02     | String manipulation and functions         | 🟢 85%  | [C 02](https://github.com/your-profile/repo-path/c02) |
@@ -51,7 +51,7 @@ Voici une version mise à jour du tableau, avec les modules et exercices princip
 | C 05     |      |    |  |
 | C 06     |  |   | |
 | C 07     |     |   |  |
-| RUSH00   | First group project                       |  | |
+| RUSH00   | First group project                       | 0% | https://github.com/aichawar/Piscine-42-lisboa/tree/main/shell01|
 | RUSH01   | Advanced group project                    |   |  |
 | RUSH02   | Final group challenge                     |   | |
 
